@@ -26,29 +26,6 @@ This repository presents a comparative evaluation of statistical and machine lea
 - Precision, Recall, F1-score
 - Brier Score
 
----
-
-## Repository Structure
-
-```
-xg-model-football/
-│
-├── notebooks/
-│   └── xg-model-selection.ipynb        # final analysis notebook
-├── data/
-│   └── shots_dataset_cleaned.csv       # (optional - or linked to Kaggle)
-├── models/
-│   └── *.h5 or *.pkl                    # (optional - saved models)
-├── plots/
-│   └── *.png                            # evaluation and SHAP plots
-├── requirements.txt                    # dependencies
-├── README.md                           # project description
-├── LICENSE                             # license file (e.g., MIT or CC-BY-4.0)
-└── .gitignore                          # Python and Jupyter ignore rules
-```
-
----
-
 ## Installation
 
 To reproduce the environment:
